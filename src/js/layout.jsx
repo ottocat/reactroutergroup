@@ -4,7 +4,7 @@ import ScrollToTop from "./component/functional/scrollToTop.jsx";
 
 import { Home } from "./views/home.jsx";
 import {Blog } from "./views/Blog.jsx";
-import { Product } from "./views/single.jsx";
+import { Product } from "./views/Product.jsx";
 import {Cart_Checkout} from "./views/Cart_Checkout.jsx";
 import Store from "./store/appContext.jsx";
 
