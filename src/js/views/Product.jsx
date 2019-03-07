@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
 
-export class Single extends React.Component {
+export class Product extends React.Component {
 	render() {
 		return (
 			<div className="jumbotron">
@@ -36,6 +36,6 @@ export class Single extends React.Component {
 	}
 }
 
-Single.propTypes = {
+Product.propTypes = {
 	match: PropTypes.object
 };
