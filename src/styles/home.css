@@ -1,0 +1,62 @@
+.card-title.text-white.mt-2.font-weight-bold {
+    opacity: .5;
+    font-family: "Bookman Old Style";
+}
+
+.card-text.text-white.mt-auto.font-weight-bold {
+    opacity: .5;
+    font-family: "Bookman Old Style";
+}
+
+body {
+    background-color: rgb(235,235,235);
+}
+
+.card-title.text-danger.mt-2.font-weight-bold {
+        opacity: .75;
+    font-family: "Bookman Old Style";
+}
+
+.card-text.text-danger.mt-auto.font-weight-bold {
+   opacity: 75;
+    font-family: "Bookman Old Style";
+}
+
+.col-6.firstCard {
+    padding-right: 5px;
+}
+
+.col-3.secondCol {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-3.thirdCol {
+    padding-left: 5px;
+}
+
+.card-text.text-danger.bg-dark.mt-auto.font-weight-bold.boris {
+    opacity: .75;
+    font-family: "Bookman Old Style"
+}
+
+.card-text.mt-auto.font-weight-bold.travel {
+    color: rgb(194,93,5);
+}
+
+.traveltitle {
+     color: rgb(194,93,5);
+    
+}
+
+.cooktext {
+    color: rgb(121,40,179);
+    background-color: rgb(193,150,38);
+    opacity: .8;
+}
+
+.cooktitle {
+    color: rgb(121,40,179);
+   
+    opacity: .8;
+}
