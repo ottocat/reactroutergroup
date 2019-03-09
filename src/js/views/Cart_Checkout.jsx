@@ -25,12 +25,14 @@ export class Cart_Checkout extends React.Component {
 												</h5>
 											</div>
 											<div className="col-xs-6">
-												<button
-													type="button"
-													className="btn btn-primary btn-sm btn-block">
-													<span className="glyphicon glyphicon-share-alt" />{" "}
-													Continue shopping
-												</button>
+												<Link to="/Product">
+													<button
+														type="button"
+														className="btn btn-primary btn-sm btn-block">
+														<span className="glyphicon glyphicon-share-alt" />{" "}
+														Continue shopping
+													</button>
+												</Link>
 											</div>
 										</div>
 									</div>
@@ -155,11 +157,13 @@ export class Cart_Checkout extends React.Component {
 											</h4>
 										</div>
 										<div className="col-xs-3">
-											<button
-												type="button"
-												className="btn btn-success btn-block">
-												Checkout
-											</button>
+											<Link to="/Thanks">
+												<button
+													type="button"
+													className="btn btn-success btn-block">
+													Checkout
+												</button>
+											</Link>
 										</div>
 									</div>
 								</div>
