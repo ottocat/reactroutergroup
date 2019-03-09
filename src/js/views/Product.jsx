@@ -13,16 +13,16 @@ export class Product extends React.Component {
 							<div className="preview col-6">
 								<div className="preview-pic tab-content">
 									<div className="tab-pane active" id="pic-1">
-										<img src="https://target.scene7.com/is/image/Target/GUEST_03e31029-c4b1-437f-b0f5-fb6e2dd59c17?wid=488&hei=488&fmt=pjpeg" />
+									{*//	<img src="https://target.scene7.com/is/image/Target/GUEST_03e31029-c4b1-437f-b0f5-fb6e2dd59c17?wid=488&hei=488&fmt=pjpeg" />
 									</div>
 									<div className="tab-pane" id="pic-2">
 										<img src="https://target.scene7.com/is/image/Target/GUEST_c940683e-4253-445b-838a-11210e36e5f6?wid=488&hei=488&fmt=pjpeg" />
 									</div>
 									<div className="tab-pane" id="pic-3">
-										<img src="https://sc01.alicdn.com/kf/HTB1AJXMKVXXXXb0XpXXq6xXFXXXI/most-soft-irish-dance-shoes-men-genuine.jpg_350x350.jpg" />
+									{*//	<img src="https://sc01.alicdn.com/kf/HTB1AJXMKVXXXXb0XpXXq6xXFXXXI/most-soft-irish-dance-shoes-men-genuine.jpg_350x350.jpg" />
 									</div>
 									<div className="tab-pane" id="pic-4">
-										<img src="https://i.pinimg.com/236x/6a/dd/1d/6add1d941228c7650c3c8ea3adbf1c0d--ballroom-dance-shoes-salsa-shoes.jpg" />
+									{*//	<img src="https://i.pinimg.com/236x/6a/dd/1d/6add1d941228c7650c3c8ea3adbf1c0d--ballroom-dance-shoes-salsa-shoes.jpg" />
 									</div>
 									<div className="tab-pane" id="pic-5">
 										<img src="https://images-na.ssl-images-amazon.com/images/I/614QjaLuVJL._UY395_.jpg" />
@@ -68,7 +68,7 @@ export class Product extends React.Component {
 							</div>
 							<div className="details col-6">
 								<h3 className="product-title">
-									men&apos;s shoes fashion
+									women&apos;s dancing shoes fashion
 								</h3>
 								<div className="rating">
 									<div className="stars">
