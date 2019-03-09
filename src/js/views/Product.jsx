@@ -1,7 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../../styles/Product.css";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
+
+
+let commiy = 0;
 
 export class Product extends React.Component {
 	render() {
