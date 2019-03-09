@@ -1,11 +1,12 @@
 import React from "react";
+import Book from "../../img/study.png";
 
 export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<a className="navbar-brand" href="#">
-					Navbar
+					<img src={Book} alt="whatever" />
 				</a>
 				<button
 					className="navbar-toggler"
