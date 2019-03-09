@@ -13,7 +13,7 @@ export class Product extends React.Component {
 							<div className="preview col-6">
 								<div className="preview-pic tab-content">
 									<div className="tab-pane active" id="pic-1">
-										<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5T4Zo0VR0_z8FtW7Blit5ZCig1kza79O2OB5FMkzuc07b_wCtQ" />
+										<img src="https://target.scene7.com/is/image/Target/GUEST_03e31029-c4b1-437f-b0f5-fb6e2dd59c17?wid=488&hei=488&fmt=pjpeg" />
 									</div>
 									<div className="tab-pane" id="pic-2">
 										<img src="https://target.scene7.com/is/image/Target/GUEST_c940683e-4253-445b-838a-11210e36e5f6?wid=488&hei=488&fmt=pjpeg" />
@@ -33,35 +33,35 @@ export class Product extends React.Component {
 										<a
 											data-target="#pic-1"
 											data-toggle="tab">
-											<img src="http://placekitten.com/200/126" />
+											<img src="https://images-na.ssl-images-amazon.com/images/I/614QjaLuVJL._UY395_.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-2"
 											data-toggle="tab">
-											<img src="http://placekitten.com/200/126" />
+											<img src="https://i.pinimg.com/236x/6a/dd/1d/6add1d941228c7650c3c8ea3adbf1c0d--ballroom-dance-shoes-salsa-shoes.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-3"
 											data-toggle="tab">
-											<img src="http://placekitten.com/200/126" />
+											<img src="http://www.donflamenco.com/media/catalog/product/cache/4/small_image/295x/040ec09b1e35df139433887a97daa66f/t/r/triana_sz.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-4"
 											data-toggle="tab">
-											<img src="http://placekitten.com/200/126" />
+											<img src="http://danceshoesource.com/wp-content/uploads/2015/12/Classical-5Belt-Children-s-3cm-Low-heel-Latin-ballroom-Salsa-Practice-Dance-Shoes-EUR-Size-26.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-5"
 											data-toggle="tab">
-											<img src="http://placekitten.com/200/126" />
+											<img src="http://charlottearthurmurray.com/wp-content/uploads/2014/05/bellydance-shoes-latindance-shoes-latin-dance-sandals-dancing-shoes-ballroom-dance-shoes-dance-accessory-300x300.jpg" />
 										</a>
 									</li>
 								</ul>
@@ -83,10 +83,11 @@ export class Product extends React.Component {
 									</span>
 								</div>
 								<p className="product-description">
-									Suspendisse quos? Tempus cras iure
-									temporibus? Eu laudantium cubilia sem sem!
-									Repudiandae et! Massa senectus enim minim
-									sociosqu delectus posuere.
+									High Quality soft leather split sole slip on
+									jazz shoes. The shoes wrap the foot closely
+									for professional use. Elasticity makes shoes
+									easily slip on. Light and durable soft
+									leather.
 								</p>
 								<h4 className="price">
 									current price: <span>$180</span>
