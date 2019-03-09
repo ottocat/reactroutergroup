@@ -1,98 +1,86 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "../../styles/Product.css";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
+
+
+let commiy = 0;
 
 export class Product extends React.Component {
 	render() {
 		return (
-			<div class="container">
-	<div class="row">
-		<div class="col-xs-8">
-			<div class="panel panel-info">
-				<div class="panel-heading">
-					<div class="panel-title">
-						<div class="row">
-							<div class="col-xs-6">
-								<h5><span class="glyphicon glyphicon-shopping-cart"></span> Carrito de Compra</h5>
+			<div className="container">
+				<div className="card">
+					<div className="container-fliud">
+						<div className="wrapper row">
+							<div className="preview col-md-6">
+								<div className="preview-pic tab-content">
+									<div className="tab-pane active" id="pic-1">
+										<img src="http://placekitten.com/400/252" />
+									</div>
+									<div className="tab-pane" id="pic-2">
+										<img src="http://placekitten.com/400/252" />
+									</div>
+									<div className="tab-pane" id="pic-3">
+										<img src="http://placekitten.com/400/252" />
+									</div>
+									<div className="tab-pane" id="pic-4">
+										<img src="http://placekitten.com/400/252" />
+									</div>
+									<div className="tab-pane" id="pic-5">
+										<img src="http://placekitten.com/400/252" />
+									</div>
+								</div>
+								<ul className="preview-thumbnail nav nav-tabs">
+									<li className="active">
+										<a
+											data-target="#pic-1"
+											data-toggle="tab">
+											<img src="http://placekitten.com/200/126" />
+										</a>
+									</li>
+									<li>
+										<a
+											data-target="#pic-2"
+											data-toggle="tab">
+											<img src="http://placekitten.com/200/126" />
+										</a>
+									</li>
+									<li>
+										<a
+											data-target="#pic-3"
+											data-toggle="tab">
+											<img src="http://placekitten.com/200/126" />
+										</a>
+									</li>
+									<li>
+										<a
+											data-target="#pic-4"
+											data-toggle="tab">
+											<img src="http://placekitten.com/200/126" />
+										</a>
+									</li>
+									<li>
+										<a
+											data-target="#pic-5"
+											data-toggle="tab">
+											<img src="http://placekitten.com/200/126" />
+										</a>
+									</li>
+								</ul>
 							</div>
-							<div class="col-xs-6">
-								<button type="button" class="btn btn-primary btn-sm btn-block">
-									<span class="glyphicon glyphicon-share-alt"></span> Sigue Comprando
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel-body">
-					<div class="row">
-						<div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
-						</div>
-						<div class="col-xs-4">
-							<h4 class="product-name"><strong>Producto</strong></h4><h4><small>descripcion</small></h4>
-						</div>
-						<div class="col-xs-6">
-							<div class="col-xs-6 text-right">
-								<h6><span class="text-muted">$</span><strong>25.00 </strong></h6>
-							</div>
-							<div class="col-xs-4">
-								<input type="text" class="form-control input-sm" value="1">
-							</div>
-							<div class="col-xs-2">
-								<button type="button" class="btn btn-link btn-xs">
-									<span class="glyphicon glyphicon-trash"> </span>
-								</button>
-							</div>
-						</div>
-					</div>
-					<hr>
-					<div class="row">
-						<div class="col-xs-2"><img class="img-responsive" src="http://placehold.it/100x70">
-						</div>
-						<div class="col-xs-4">
-							<h4 class="product-name"><strong>Producto</strong></h4><h4><small>descripcion</small></h4>
-						</div>
-						<div class="col-xs-6">
-							<div class="col-xs-6 text-right">
-								<h6><span class="text-muted">$</span><strong>25.00 </strong></h6>
-							</div>
-							<div class="col-xs-4">
-								<input type="text" class="form-control input-sm" value="1">
-							</div>
-							<div class="col-xs-2">
-								<button type="button" class="btn btn-link btn-xs">
-									<span class="glyphicon glyphicon-trash"> </span>
-								</button>
-							</div>
-						</div>
-					</div>
-					<hr>
-					<div class="row">
-						<div class="text-center">
-							<div class="col-xs-9">
-								<h6 class="text-right">Agrego productos?</h6>
-							</div>
-							<div class="col-xs-3">
-								<button type="button" class="btn btn-default btn-sm btn-block">
-									Actualizar
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel-footer">
-					<div class="row text-center">
-						<div class="col-xs-9">
-							<h4 class="text-right">Total <strong>$50.00</strong></h4>
-						</div>
-						<div class="col-xs-3">
-							<button type="button" class="btn btn-success btn-block">
-								Comprar!
-							</button>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
+		);
+	}
+}
+
+// Product.propTypes = {
+// 	match: PropTypes.object
+
+// Product.propTypes = {
+// 	match: PropTypes.object
+// };
