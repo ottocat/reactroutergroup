@@ -12,6 +12,7 @@ import Store from "./store/appContext.jsx";
 
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
+import { Thank_You } from "./views/Thank_You.jsx";
 
 //create your first component
 export class Layout extends React.Component {
@@ -28,6 +29,7 @@ export class Layout extends React.Component {
 							path="/Cart_Checkout"
 							component={Cart_Checkout}
 						/>
+						<Route path="/Thanks" component={Thank_You} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
