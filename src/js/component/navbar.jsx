@@ -1,5 +1,6 @@
 import React from "react";
 import Book from "../../img/study.png";
+import { NavLink } from "react-router-dom";
 
 export class Navbar extends React.Component {
 	render() {
@@ -24,26 +25,26 @@ export class Navbar extends React.Component {
 					id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
-							<a className="nav-link" href="/">
+							<NavLink to="/" className="nav-link">
 								Home <span className="sr-only">(current)</span>
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/Blog">
+							<NavLink to="/Blog" className="nav-link">
 								Blogs
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item active">
-							<a className="nav-link" href="/Product">
+							<NavLink to="/Product" className="nav-link">
 								Product{" "}
 								<span className="sr-only">(current)</span>
-							</a>
+							</NavLink>
 						</li>
 						<li className="nav-item active">
-							<a className="nav-link" href="/Cart_Checkout">
+							<NavLink to="/Cart_Checkout" className="nav-link">
 								Checkout{" "}
 								<span className="sr-only">(current)</span>
-							</a>
+							</NavLink>
 						</li>
 					</ul>
 					<form className="form-inline my-2 my-lg-0">
