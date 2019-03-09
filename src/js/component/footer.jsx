@@ -43,10 +43,10 @@ export class Footer extends Component {
 				</div>
 
 				<div className="footer-copyright text-center py-3">
-					© 2018 Copyright:
-					<a href="https://mdbootstrap.com/education/bootstrap/">
+					© 2019 Copyright:
+					<a href="www.TerryAndrewSandraMarcelo.com">
 						{" "}
-						MDBootstrap.com
+						TerryAndrewSandraMarcelo.com
 					</a>
 				</div>
 			</footer>
