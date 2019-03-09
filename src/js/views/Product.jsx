@@ -133,11 +133,13 @@ export class Product extends React.Component {
 									<span className="color blue" />
 								</h5>
 								<div className="action">
-									<button
-										className="add-to-cart btn btn-default"
-										type="button">
-										add to cart
-									</button>
+									<Link to="/Cart_Checkout">
+										<button
+											className="add-to-cart btn btn-default"
+											type="button">
+											add to cart
+										</button>
+									</Link>
 									<button
 										className="like btn btn-default"
 										type="button">
