@@ -12,22 +12,22 @@ import Cooks from "../../img/Cooking.jpg";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="row mx-auto">
+			<div className="row mx-auto allCards">
 				{/* First Column */}
 
 				<div className="col-6 firstCard">
 					<Link to="/Blog">
-						<div className="card bg-dark">
+						<div className="card  ">
 							<img
 								src={danceBlog}
 								className="card-img"
 								alt="..."
 							/>
 							<div className="card-img-overlay d-flex flex-column">
-								<h4 className="card-title text-white mt-2 font-weight-bold">
+								<h4 className="card-title text-white mt-2 font-weight-bold firstCardTitle">
 									Featured Blog
 								</h4>
-								<p className="card-text text-white mt-auto font-weight-bold">
+								<p className="card-text text-white mt-auto font-weight-bold firstCardText">
 									{
 										"Following an introvert's journey through the Salsa Community"
 									}
@@ -41,13 +41,10 @@ export class Home extends React.Component {
 					{" "}
 					{/* Second Column first Card */}
 					<Link to="/Blog">
-						<div className="card bg-dark">
+						<div className="card">
 							<img src={diMaria} className="card-img" alt="..." />
 							<div className="card-img-overlay d-flex flex-column">
-								<h4 className="card-title text-danger bg-dark mt-2 font-weight-bold">
-									Fulltime
-								</h4>
-								<p className="card-text text-danger bg-dark mt-auto font-weight-bold">
+								<p className="card-text  text-white   mt-auto font-weight-bold rounded secondCardText">
 									{
 										"A blog proving hindsight really is 20/20, nitpickingevery big game"
 									}
@@ -56,7 +53,7 @@ export class Home extends React.Component {
 						</div>
 					</Link>
 					{/* Second Column Second Card */}
-					<div className="card bg-dark mt-3">
+					<div className="card   mt-3">
 						<Link to="/Blog">
 							<img
 								src={GreatWall}
@@ -64,10 +61,7 @@ export class Home extends React.Component {
 								alt="..."
 							/>
 							<div className="card-img-overlay d-flex flex-column">
-								<h4 className="card-title mt-2 font-weight-bold traveltitle">
-									Viajando
-								</h4>
-								<p className="card-text mt-auto font-weight-bold travel">
+								<p className="card-text text-white mt-auto font-weight-bold thirdCardText">
 									{
 										"Seeing the world, and still finding the time to code"
 									}
@@ -80,13 +74,10 @@ export class Home extends React.Component {
 				<div className="col-3 thirdCol">
 					{" "}
 					<Link to="/Blog">
-						<div className="card bg-dark">
+						<div className="card  ">
 							<img src={Cooks} className="card-img" alt="..." />
 							<div className="card-img-overlay d-flex flex-column">
-								<h4 className="card-title mt-2 font-weight-bold cooktitle">
-									Food
-								</h4>
-								<p className="card-text mt-auto  font-weight-bold cooktext">
+								<p className="card-text mt-auto text-white font-weight-bold fourthCardText">
 									{
 										"Cooking while coding: a comprehensive guide."
 									}
@@ -95,14 +86,11 @@ export class Home extends React.Component {
 						</div>
 					</Link>
 					{/* Third Column Second Card */}
-					<div className="card bg-dark mt-3">
+					<div className="card   mt-3">
 						<Link to="/Blog">
 							<img src={Boris} className="card-img" alt="..." />
 							<div className="card-img-overlay d-flex flex-column">
-								<h4 className="card-title text-danger bg-dark  mt-2 font-weight-bold">
-									{"Boris' retro coding"}
-								</h4>
-								<p className="card-text text-danger bg-dark mt-auto font-weight-bold boris">
+								<p className="card-text  text-white mt-auto font-weight-bold fifthCardText">
 									{
 										"A look through former bond villain and elite hacker, Boris' eyes into the world of tech from the 90s "
 									}
