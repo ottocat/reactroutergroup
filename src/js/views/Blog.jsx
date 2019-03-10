@@ -29,7 +29,7 @@ export class Blog extends React.Component {
 						<div className="card flex-md-row mb-4 box-shadow h-md-250">
 							<div className="card-body d-flex flex-column align-items-start">
 								<strong className="d-inline-block mb-2 text-primary">
-									{"World"}
+									{"New!"}
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
@@ -39,7 +39,7 @@ export class Blog extends React.Component {
 								<div className="mb-1 text-muted">
 									{"March 8"}
 								</div>
-								<p className="card-text mb-auto">
+								<p className="card-text text-dark mb-auto">
 									{
 										"This is a wider card with supporting text below as a natural lead-in to additional content."
 									}
@@ -51,8 +51,8 @@ export class Blog extends React.Component {
 								data-src="holder.js/200x250?theme=thumb"
 								alt="Thumbnail [200x250]"
 								style={{
-									width: 200 + "px",
-									height: 250 + "px"
+									width: "200px",
+									height: "250px"
 								}}
 								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
 								data-holder-rendered="true"
