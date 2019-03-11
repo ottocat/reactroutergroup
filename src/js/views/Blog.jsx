@@ -37,11 +37,11 @@ export class Blog extends React.Component {
 									</a>
 								</h3>
 								<div className="mb-1 text-muted">
-									{"March 8"}
+									{"March 11"}
 								</div>
 								<p className="card-text text-dark mb-auto">
 									{
-										"This is a wider card with supporting text below as a natural lead-in to additional content."
+										"Kids and how to deal with them. A safe guide."
 									}
 								</p>
 								<a href="#">{"Continue reading"}</a>
@@ -49,9 +49,111 @@ export class Blog extends React.Component {
 							<img
 								className="card-img-right flex-auto d-none d-md-block d-flex"
 								data-src="holder.js/200x250?theme=thumb"
-								alt="Thumbnail [200x250]"
+								alt="Thumbnail [250x250]"
 								style={{
-									width: "200px",
+									width: "250px",
+									height: "250px"
+								}}
+								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								data-holder-rendered="true"
+							/>
+						</div>
+					</div>
+
+					<div className="col-md-6">
+						<div className="card flex-md-row mb-4 box-shadow h-md-250">
+							<div className="card-body d-flex flex-column align-items-start">
+								<strong className="d-inline-block mb-2 text-primary">
+									{}
+								</strong>
+								<h3 className="mb-0">
+									<a className="text-dark" href="#">
+										{"Blog Post"}
+									</a>
+								</h3>
+								<div className="mb-1 text-muted">
+									{"March 10"}
+								</div>
+								<p className="card-text text-dark mb-auto">
+									{"How dancing can spice up your life"}
+								</p>
+								<a href="#">{"Continue reading"}</a>
+							</div>
+							<img
+								className="card-img-right flex-auto d-none d-md-block d-flex"
+								data-src="holder.js/200x250?theme=thumb"
+								alt="Thumbnail [250x250]"
+								style={{
+									width: "250px",
+									height: "250px"
+								}}
+								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								data-holder-rendered="true"
+							/>
+						</div>
+					</div>
+				</div>
+				<div className="row mb-2">
+					<div className="col-md-6">
+						<div className="card flex-md-row mb-4 box-shadow h-md-250">
+							<div className="card-body d-flex flex-column align-items-start">
+								<strong className="d-inline-block mb-2 text-primary">
+									{}
+								</strong>
+								<h3 className="mb-0">
+									<a className="text-dark" href="#">
+										{"Blog Post"}
+									</a>
+								</h3>
+								<div className="mb-1 text-muted">
+									{"March 9"}
+								</div>
+								<p className="card-text text-dark mb-auto">
+									{
+										"A guide to incorporate dance in your busy schedule"
+									}
+								</p>
+								<a href="#">{"Continue reading"}</a>
+							</div>
+							<img
+								className="card-img-right flex-auto d-none d-md-block d-flex"
+								data-src="holder.js/200x250?theme=thumb"
+								alt="Thumbnail [250x250]"
+								style={{
+									width: "250px",
+									height: "250px"
+								}}
+								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								data-holder-rendered="true"
+							/>
+						</div>
+					</div>
+
+					<div className="col-md-6">
+						<div className="card flex-md-row mb-4 box-shadow h-md-250">
+							<div className="card-body d-flex flex-column align-items-start">
+								<strong className="d-inline-block mb-2 text-primary">
+									{}
+								</strong>
+								<h3 className="mb-0">
+									<a className="text-dark" href="#">
+										{"Blog Post"}
+									</a>
+								</h3>
+								<div className="mb-1 text-muted">
+									{"March 8"}
+								</div>
+								<p className="card-text text-dark mb-auto">
+									{"Healthy eating on the go"}
+								</p>
+								<a href="#">{"Continue reading"}</a>
+							</div>
+							<img
+								className="card-img-right flex-auto d-none d-md-block d-flex"
+								data-src="holder.js/200x250?theme=thumb"
+								alt="Thumbnail [250x250]"
+								style={{
+									width: "250px",
 									height: "250px"
 								}}
 								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
