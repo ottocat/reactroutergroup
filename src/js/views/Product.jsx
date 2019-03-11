@@ -3,6 +3,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
 
+<<<<<<< HEAD
+let commiy = 0;
+
+=======
+>>>>>>> 8ed3c01ef651b10c8f6777342ea1eeb795a59394
 export class Product extends React.Component {
 	render() {
 		return (
