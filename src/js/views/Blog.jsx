@@ -33,7 +33,9 @@ export class Blog extends React.Component {
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										{"Blog Post"}
+										{
+											"Kids and how to deal with them. A safe guide."
+										}
 									</a>
 								</h3>
 								<div className="mb-1 text-muted">
@@ -41,7 +43,7 @@ export class Blog extends React.Component {
 								</div>
 								<p className="card-text text-dark mb-auto">
 									{
-										"Kids and how to deal with them. A safe guide."
+										"You may feel stuck in between making your kids happy or making yourself happy..."
 									}
 								</p>
 								<a href="#">{"Continue reading"}</a>
@@ -54,7 +56,7 @@ export class Blog extends React.Component {
 									width: "250px",
 									height: "250px"
 								}}
-								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								src="https://u3c4j6t8.stackpathcdn.com/wp-content/uploads/2014/04/KidShakingHands_400.png"
 								data-holder-rendered="true"
 							/>
 						</div>
@@ -64,18 +66,20 @@ export class Blog extends React.Component {
 						<div className="card flex-md-row mb-4 box-shadow h-md-250">
 							<div className="card-body d-flex flex-column align-items-start">
 								<strong className="d-inline-block mb-2 text-primary">
-									{}
+									{"Featured"}
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										{"Blog Post"}
+										{"Salsa impacting lives"}
 									</a>
 								</h3>
 								<div className="mb-1 text-muted">
 									{"March 10"}
 								</div>
 								<p className="card-text text-dark mb-auto">
-									{"How dancing can spice up your life"}
+									{
+										"Following an introvert's journey through the Salsa community... "
+									}
 								</p>
 								<a href="#">{"Continue reading"}</a>
 							</div>
@@ -87,7 +91,7 @@ export class Blog extends React.Component {
 									width: "250px",
 									height: "250px"
 								}}
-								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								src="/Michelle and I hurricane social.jpeg"
 								data-holder-rendered="true"
 							/>
 						</div>
@@ -102,7 +106,7 @@ export class Blog extends React.Component {
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										{"Blog Post"}
+										{"Finding the time to dance"}
 									</a>
 								</h3>
 								<div className="mb-1 text-muted">
@@ -110,7 +114,7 @@ export class Blog extends React.Component {
 								</div>
 								<p className="card-text text-dark mb-auto">
 									{
-										"A guide to incorporate dance in your busy schedule"
+										"A guide to incorporate dance in your busy schedule..."
 									}
 								</p>
 								<a href="#">{"Continue reading"}</a>
@@ -123,7 +127,7 @@ export class Blog extends React.Component {
 									width: "250px",
 									height: "250px"
 								}}
-								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								src="https://cf.ltkcdn.net/dance/images/std/161864-300x232-50s-dance-clipart-4.gif"
 								data-holder-rendered="true"
 							/>
 						</div>
@@ -137,14 +141,16 @@ export class Blog extends React.Component {
 								</strong>
 								<h3 className="mb-0">
 									<a className="text-dark" href="#">
-										{"Blog Post"}
+										{"Health on-the-go"}
 									</a>
 								</h3>
 								<div className="mb-1 text-muted">
 									{"March 8"}
 								</div>
 								<p className="card-text text-dark mb-auto">
-									{"Healthy eating on the go"}
+									{
+										"Eating on the go without skipping on health..."
+									}
 								</p>
 								<a href="#">{"Continue reading"}</a>
 							</div>
@@ -156,7 +162,7 @@ export class Blog extends React.Component {
 									width: "250px",
 									height: "250px"
 								}}
-								src="http://www.fondazioneprada.org/wp-content/uploads/The-Prada-Double-Club-Miami_1-2-959x640.jpg"
+								src="https://www.floridablue.com/sites/floridablue.com/files/Healthy-Eating-on-the-Go.jpg"
 								data-holder-rendered="true"
 							/>
 						</div>
