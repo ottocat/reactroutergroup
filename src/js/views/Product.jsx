@@ -15,19 +15,6 @@ export class Product extends React.Component {
 									<div className="tab-pane active" id="pic-1">
 										<img src="" />
 									</div>
-
-									<div className="tab-pane" id="pic-2">
-										<img src="https://target.scene7.com/is/image/Target/GUEST_c940683e-4253-445b-838a-11210e36e5f6?wid=488&hei=488&fmt=pjpeg" />
-									</div>
-									<div className="tab-pane" id="pic-3">
-										<img src="https://i.ebayimg.com/images/g/TDkAAOSwiBJaE9FZ/s-l1600.jpg" />
-									</div>
-									<div className="tab-pane" id="pic-4">
-										<img src="" />
-									</div>
-									<div className="tab-pane" id="pic-5">
-										<img src="" />
-									</div>
 								</div>
 								<ul className="preview-thumbnail nav nav-tabs">
 									<li className="active">
@@ -41,7 +28,7 @@ export class Product extends React.Component {
 										<a
 											data-target="#pic-2"
 											data-toggle="tab">
-											<img src="" />
+											<img src="https://i.ebayimg.com/images/g/P~QAAOSwFb5aFPJU/s-l150.jpg" />
 										</a>
 									</li>
 									<li>
@@ -55,14 +42,14 @@ export class Product extends React.Component {
 										<a
 											data-target="#pic-4"
 											data-toggle="tab">
-											<img src="" />
+											<img src="https://i.ebayimg.com/images/g/EW8AAOSw1NFaFPJX/s-l140.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-5"
 											data-toggle="tab">
-											<img src="" />
+											<img src="https://i.ebayimg.com/images/g/ascAAOSwa81aFPJZ/s-l140.jpg" />
 										</a>
 									</li>
 								</ul>
