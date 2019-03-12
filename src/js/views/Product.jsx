@@ -20,7 +20,7 @@ export class Product extends React.Component {
 										<img src="https://target.scene7.com/is/image/Target/GUEST_c940683e-4253-445b-838a-11210e36e5f6?wid=488&hei=488&fmt=pjpeg" />
 									</div>
 									<div className="tab-pane" id="pic-3">
-										<img src="" />
+										<img src="https://i.ebayimg.com/images/g/TDkAAOSwiBJaE9FZ/s-l1600.jpg" />
 									</div>
 									<div className="tab-pane" id="pic-4">
 										<img src="" />
