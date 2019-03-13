@@ -4,12 +4,12 @@ import { Context } from "../store/appContext.jsx";
 import diMaria from "../../img/DIMARIA.jpg";
 import { Link } from "react-router-dom";
 
-function DemoList(props) {
+function ThirdColumn(props) {
 	return (
 		<ul>
 			<Context.Consumer>
 				{({ store }) => {
-					return store.blogs2.map((item, index) => {
+					return store.blogs3.map((item, index) => {
 						return (
 							<Link key={index} to="/Blog">
 								<div className={"card " + item.style}>
@@ -33,8 +33,8 @@ function DemoList(props) {
 	);
 }
 
-DemoList.propTypes = {
+ThirdColumn.propTypes = {
 	items: PropTypes.array
 };
 
-export default DemoList;
+export default ThirdColumn;

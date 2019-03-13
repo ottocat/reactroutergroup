@@ -1,14 +1,19 @@
+// import Dance from "https://www.hubbardstreetdance.com/media/1149/hsd160707_0409-isolated-dancer-only.jpg?anchor=center&mode=crop&width=1140&height=600&rnd=131617969130000000";
+import diMaria from "../../img/DIMARIA.jpg";
+import GreatWall from "../../img/greatWall.jpg";
+import Boris from "../../img/Coding.jpg";
+import Cooks from "../../img/Cooking.jpg";
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
 			cart: [
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				},
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				}
@@ -16,13 +21,53 @@ const getState = ({ getStore, setStore }) => {
 			product: [
 				{
 					id: 1,
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				},
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes"
+				}
+			],
+			blogs: [
+				{
+					title: "Featured Blog",
+					description: "More stuff",
+					date: "01/01/0001"
+				}
+			],
+			blogs2: [
+				{
+					title: "Extra Time",
+					description:
+						"A blog proving hindsight really is 20/20, nitpickingevery big game",
+					image: diMaria,
+					date: "1/24/19"
+				},
+				{
+					title: "Card number 2",
+					description:
+						"Seeing the world, and still finding the time to code",
+					image: GreatWall,
+					date: "01/10/10",
+					style: " mt-3"
+				}
+			],
+			blogs3: [
+				{
+					title: "Cooking Blog",
+					description: "Cooking while coding: a comprehensive guide.",
+					image: Cooks,
+					date: "01/10/10"
+				},
+				{
+					title: "Boris' Bootcamp",
+					description:
+						"A look through former bond villain and elite hacker, Boris' eyes into the world of tech from the 90s",
+					image: Boris,
+					date: "01/10/10",
+					style: " mt-3"
 				}
 			]
 		},
