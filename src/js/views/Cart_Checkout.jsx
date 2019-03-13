@@ -53,7 +53,7 @@ export class Cart_Checkout extends React.Component {
 																<div className="col-xs-2">
 																	<img
 																		className="img-responsive"
-																		src="http://placehold.it/100x70"
+																		src="https://i.ebayimg.com/images/g/EW8AAOSw1NFaFPJX/s-l140.jpg"
 																	/>
 																</div>
 																<div className="col-xs-4">
