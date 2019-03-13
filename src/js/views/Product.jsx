@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext.jsx";
 
@@ -54,88 +55,97 @@ export class Product extends React.Component {
 									</li>
 								</ul>
 							</div>
-							<div className="details col-6">
-								<h3 className="product-title">
-									women&apos;s dancing shoes fashion
-								</h3>
-								<div className="rating">
-									<div className="stars">
-										<span className="fa fa-star checked" />
-										<span className="fa fa-star checked" />
-										<span className="fa fa-star checked" />
-										<span className="fa fa-star" />
-										<span className="fa fa-star" />
-									</div>
-									<span className="review-no">
-										41 reviews
-									</span>
-								</div>
-								<p className="product-description">
-									High Quality soft leather split sole slip on
-									jazz shoes. The shoes wrap the foot closely
-									for professional use. Elasticity makes shoes
-									easily slip on. Light and durable soft
-									leather.
-								</p>
-								<h4 className="price">
-									current price: <span>$180</span>
-								</h4>
-								<p className="vote">
-									<strong>91%</strong> of buyers enjoyed this
-									product! <strong>(87 votes)</strong>
-								</p>
-								<h5 className="sizes">
-									sizes:
-									<span
-										className="size"
-										data-toggle="tooltip"
-										title="small">
-										s
-									</span>
-									<span
-										className="size"
-										data-toggle="tooltip"
-										title="medium">
-										m
-									</span>
-									<span
-										className="size"
-										data-toggle="tooltip"
-										title="large">
-										l
-									</span>
-									<span
-										className="size"
-										data-toggle="tooltip"
-										title="xtra large">
-										xl
-									</span>
-								</h5>
-								<h5 className="colors">
-									colors:
-									<span
-										className="color orange not-available"
-										data-toggle="tooltip"
-										title="Not In store"
-									/>
-									<span className="color green" />
-									<span className="color blue" />
-								</h5>
-								<div className="action">
-									<Link to="/Cart_Checkout">
-										<button
-											className="add-to-cart btn btn-default"
-											type="button">
-											add to cart
-										</button>
-									</Link>
-									<button
-										className="like btn btn-default"
-										type="button">
-										<span className="fa fa-heart" />
-									</button>
-								</div>
-							</div>
+							<Context.Consumer>
+								{({ store }) => {
+									return (
+										<div className="details col-6">
+											<h3 className="product-title">
+												women&apos;s{" "}
+												{store.product[0].productName}
+											</h3>
+											<div className="rating">
+												<div className="stars">
+													<span className="fa fa-star checked" />
+													<span className="fa fa-star checked" />
+													<span className="fa fa-star checked" />
+													<span className="fa fa-star" />
+													<span className="fa fa-star" />
+												</div>
+												<span className="review-no">
+													41 reviews
+												</span>
+											</div>
+											<p className="product-description">
+												High Quality soft leather split
+												sole slip on jazz shoes. The
+												shoes wrap the foot closely for
+												professional use. Elasticity
+												makes shoes easily slip on.
+												Light and durable soft leather.
+											</p>
+											<h4 className="price">
+												current price: <span>$180</span>
+											</h4>
+											<p className="vote">
+												<strong>91%</strong> of buyers
+												enjoyed this product!{" "}
+												<strong>(87 votes)</strong>
+											</p>
+											<h5 className="sizes">
+												sizes:
+												<span
+													className="size"
+													data-toggle="tooltip"
+													title="small">
+													s
+												</span>
+												<span
+													className="size"
+													data-toggle="tooltip"
+													title="medium">
+													m
+												</span>
+												<span
+													className="size"
+													data-toggle="tooltip"
+													title="large">
+													l
+												</span>
+												<span
+													className="size"
+													data-toggle="tooltip"
+													title="xtra large">
+													xl
+												</span>
+											</h5>
+											<h5 className="colors">
+												colors:
+												<span
+													className="color orange not-available"
+													data-toggle="tooltip"
+													title="Not In store"
+												/>
+												<span className="color green" />
+												<span className="color red" />
+											</h5>
+											<div className="action">
+												<Link to="/Cart_Checkout">
+													<button
+														className="add-to-cart btn btn-default"
+														type="button">
+														add to cart
+													</button>
+												</Link>
+												<button
+													className="like btn btn-default"
+													type="button">
+													<span className="fa fa-heart" />
+												</button>
+											</div>
+										</div>
+									);
+								}}
+							</Context.Consumer>
 						</div>
 					</div>
 				</div>

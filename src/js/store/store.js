@@ -8,12 +8,12 @@ const getState = ({ getStore, setStore }) => {
 		store: {
 			cart: [
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				},
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				}
@@ -21,12 +21,12 @@ const getState = ({ getStore, setStore }) => {
 			product: [
 				{
 					id: 1,
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes",
 					price: 180
 				},
 				{
-					productName: "Dancershoe",
+					productName: "Dancing shoe's",
 					productDescription: "Black Diamond dancing shoes"
 				}
 			],
