@@ -14,7 +14,7 @@ export class Product extends React.Component {
 							<div className="preview col-6">
 								<div className="preview-pic tab-content">
 									<div className="tab-pane active" id="pic-1">
-										<img src="" />
+										<img src="https://images-na.ssl-images-amazon.com/images/I/614QjaLuVJL._UY395_.jpg" />
 									</div>
 								</div>
 								<ul className="preview-thumbnail nav nav-tabs">
@@ -22,33 +22,19 @@ export class Product extends React.Component {
 										<a
 											data-target="#pic-1"
 											data-toggle="tab">
-											<img src="https://images-na.ssl-images-amazon.com/images/I/614QjaLuVJL._UY395_.jpg" />
+											<img src="https://i.ebayimg.com/images/g/P~QAAOSwFb5aFPJU/s-l150.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
 											data-target="#pic-2"
 											data-toggle="tab">
-											<img src="https://i.ebayimg.com/images/g/P~QAAOSwFb5aFPJU/s-l150.jpg" />
-										</a>
-									</li>
-									<li>
-										<a
-											data-target="#pic-3"
-											data-toggle="tab">
-											<img src="" />
-										</a>
-									</li>
-									<li>
-										<a
-											data-target="#pic-4"
-											data-toggle="tab">
 											<img src="https://i.ebayimg.com/images/g/EW8AAOSw1NFaFPJX/s-l140.jpg" />
 										</a>
 									</li>
 									<li>
 										<a
-											data-target="#pic-5"
+											data-target="#pic-3"
 											data-toggle="tab">
 											<img src="https://i.ebayimg.com/images/g/ascAAOSwa81aFPJZ/s-l140.jpg" />
 										</a>
@@ -60,7 +46,8 @@ export class Product extends React.Component {
 									return (
 										<div className="details col-6">
 											<h3 className="product-title">
-												women&apos;s{" "}
+												women&apos;s
+												{"gcgvgvgvjvgvjguyyu "}
 												{store.product[0].productName}
 											</h3>
 											<div className="rating">
@@ -139,7 +126,7 @@ export class Product extends React.Component {
 												<button
 													className="like btn btn-default"
 													type="button">
-													<span className="fa fa-heart" />
+													<span className="far fa-heart" />
 												</button>
 											</div>
 										</div>
