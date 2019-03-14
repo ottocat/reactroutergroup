@@ -21,23 +21,49 @@ export class Home extends React.Component {
 					{({ store, actions }) => {
 						return (
 							<div className="col-6 firstCard">
-								<Link to="/Blog">
-									<div className="card  ">
+								<div className="card  ">
+									<Link to="/Blog">
 										<img
 											src={danceBlog}
 											className="card-img"
 											alt="..."
 										/>
-										<div className="card-img-overlay d-flex flex-column">
-											<h4 className="card-title text-white mt-2 font-weight-bold firstCardTitle">
-												{store.blogs[0].title}
-											</h4>
-											<p className="card-text text-white mt-auto font-weight-bold firstCardText">
-												{store.blogs[0].description}
-											</p>
+									</Link>
+									<div className="card-img-overlay d-flex flex-column">
+										<h4 className="card-title text-white mt-2 font-weight-bold firstCardTitle">
+											{store.blogs[0].title}
+										</h4>
+										<div className="col 3">
+											<a
+												href="#"
+												className={
+													store.blogs[0].liked
+														? "float-right text-danger"
+														: "float-right text-white"
+												}
+												onClick={
+													store.blogs[0].liked
+														? () =>
+																actions.featuredLikeClicked(
+																	0
+																)
+														: () =>
+																actions.featuredLikeClicked(
+																	0
+																)
+												}>
+												{store.blogs[0].liked ? (
+													<i className="fas fa-heart" />
+												) : (
+													<i className="far fa-heart" />
+												)}
+											</a>
 										</div>
+										<p className="card-text text-white mt-auto font-weight-bold firstCardText">
+											{store.blogs[0].description}
+										</p>
 									</div>
-								</Link>
+								</div>
 							</div>
 						);
 					}}
