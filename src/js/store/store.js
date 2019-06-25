@@ -26,7 +26,7 @@ const getState = ({ getStore, setStore }) => {
 					price: 180
 				},
 				{
-					productName: "Dancing shoe's",
+					productName: "Men's shoe's",
 					productDescription: "Black Diamond dancing shoes"
 				}
 			],

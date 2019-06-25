@@ -43,12 +43,15 @@ export class Product extends React.Component {
 							</div>
 							<Context.Consumer>
 								{({ store }) => {
+									let product =
+										store.product[
+											this.props.match.params.theid
+										];
 									return (
 										<div className="details col-6">
 											<h3 className="product-title">
-												women&apos;s
-												{"gcgvgvgvjvgvjguyyu "}
-												{store.product[0].productName}
+												women&apos;s{" "}
+												{product.productName}
 											</h3>
 											<div className="rating">
 												<div className="stars">
@@ -144,6 +147,6 @@ export class Product extends React.Component {
 // Product.propTypes = {
 // 	match: PropTypes.object
 
-// Product.propTypes = {
-// 	match: PropTypes.object
-// };
+Product.propTypes = {
+	match: PropTypes.object
+};
